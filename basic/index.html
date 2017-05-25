@@ -17,6 +17,13 @@
     <link href="assets/css/ionicons.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Image Galery Library -->
+    <!-- 1. Link to jQuery (1.8 or later), -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+
+    <!-- fotorama.css & fotorama.js. -->
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
@@ -81,8 +88,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <img src="assets/img/item.jpg" class="img-responsive img-rounded middle-image" alt="">
-          <br>
+          <img src="assets/img/item.jpg" class="img-responsive" alt="">
+          <br><br><br><br><br>
         </div>
       </div><!--/row-->
     </div><!--/.container-->
@@ -91,143 +98,18 @@
       <div class="container">
         <div class="row centered">
           <h1>Check out some photos of mine!</h1>
-
+          <br><br>
+          <div class="fotorama" data-width="100%" data-height="100%"
+          data-fit="none" data-nav="thumbs" data-allowfullscreen="true">
+            <img src="https://lh3.googleusercontent.com/Zsfe8NmV3Q3NMi4fTB0H5zbIvgoyy5lXfoBLfXAPAnQOhbK5KHZxYuOEfohigMt0NWQP5c-L8MMrS26I1yHIVMpb-dhCWVeIv6jurFRarPjkpsUHfh_5hJJC8g6Gl6YqNLv8uIf5HtANMo6PXG0oMdVA2lWiFYkp8WIkbxyifrrs_RE-S4AIRrQZmJdTslZQ10np8vAOiaLsFRUcVAIegDec4VWWPi4GUdGCoXEMEgs5I-vZMEBrX--1n67V5FAGB-DBEyWwqw3raI9zwZWB8-gVdfr8t4_XVBPZxRD9NdCFJqli6J4w8YvTI6CuH5DckI2s9xL-U83j5Q3v_FwpyN_3l2OqZxmhn1gDvojZxBDpQ6QLTKJ_tXE61P_8XtCR6zgZ58k0NhcuHXKbVjRVffzygsW7A6gi63j6i56RY7_2T0h9lkkxOYs8WoFen6T8QvxukLjlR2G9lcZRLlhvyxNbTRMBsu9poIyK0fYLkcUXGggsFX65Vgc1YMr6f73T52_BnctkdJRkUhYwqehMMeiCsXY1OTcbuJcUwrgZZ31xs8QJk9IE7dw6rTdWJiFqHgLlJO0FCupCxyI9pRd2-IRRmIrrSaLYYqui48xFWkMIXvBbajqOkA=w1071-h803-no"
+            data-caption="Once upon a time in Jeju">
+            <img src="http://s.fotorama.io/2.jpg">
+            <img src="http://s.fotorama.io/3.jpg">
+            <img src="http://s.fotorama.io/4.jpg">
+            <img src="http://s.fotorama.io/5.jpg">
+          </div>
         </div><!--/row-->
       </div><!--/.container-->
-    <div class="portfolio-centered mt">
-      <div class="recentitems portfolio">
-
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_09.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-               </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item web-design">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_02.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-              </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_03.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-              </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_04.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-              </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item books">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_05.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-              </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_06.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-               </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item web-design">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_07.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-              </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_08.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-              </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item graphic-design">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_01.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-              </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-
-        <div class="portfolio-item books">
-          <div class="he-wrap tpl6">
-          <img src="assets/img/portfolio/portfolio_10.jpg" class="img-responsive" alt="">
-            <div class="he-view">
-              <div class="bg a0" data-animate="fadeIn">
-                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-              </div><!-- he bg -->
-            </div><!-- he view -->
-          </div><!-- he wrap -->
-        </div><!-- end col-12 -->
-       </div><!-- portfolio -->
-    </div><!-- portfolio container -->
 
     <div class="container mt">
         <div class="row clients centered">
@@ -291,86 +173,91 @@
 
 
     <script>
+
+
+//Image gallery
+
+
 // Portfolio
-(function($) {
-  "use strict";
-  var $container = $('.portfolio'),
-    $items = $container.find('.portfolio-item'),
-    portfolioLayout = 'fitRows';
-
-    if( $container.hasClass('portfolio-centered') ) {
-      portfolioLayout = 'masonry';
-    }
-
-    $container.isotope({
-      filter: '*',
-      animationEngine: 'best-available',
-      layoutMode: portfolioLayout,
-      animationOptions: {
-      duration: 750,
-      easing: 'linear',
-      queue: false
-    },
-    masonry: {
-    }
-    }, refreshWaypoints());
-
-    function refreshWaypoints() {
-      setTimeout(function() {
-      }, 1000);
-    }
-
-    $('nav.portfolio-filter ul a').on('click', function() {
-        var selector = $(this).attr('data-filter');
-        $container.isotope({ filter: selector }, refreshWaypoints());
-        $('nav.portfolio-filter ul a').removeClass('active');
-        $(this).addClass('active');
-        return false;
-    });
-
-    function getColumnNumber() {
-      var winWidth = $(window).width(),
-      columnNumber = 1;
-
-      if (winWidth > 1200) {
-        columnNumber = 5;
-      } else if (winWidth > 950) {
-        columnNumber = 4;
-      } else if (winWidth > 600) {
-        columnNumber = 3;
-      } else if (winWidth > 400) {
-        columnNumber = 2;
-      } else if (winWidth > 250) {
-        columnNumber = 1;
-      }
-        return columnNumber;
-      }
-
-      function setColumns() {
-        var winWidth = $(window).width(),
-        columnNumber = getColumnNumber(),
-        itemWidth = Math.floor(winWidth / columnNumber);
-
-        $container.find('.portfolio-item').each(function() {
-          $(this).css( {
-          width : itemWidth + 'px'
-        });
-      });
-    }
-
-    function setPortfolio() {
-      setColumns();
-      $container.isotope('reLayout');
-    }
-
-    $container.imagesLoaded(function () {
-      setPortfolio();
-    });
-
-    $(window).on('resize', function () {
-    setPortfolio();
-  });
-})(jQuery);
+// (function($) {
+//   "use strict";
+//   var $container = $('.portfolio'),
+//     $items = $container.find('.portfolio-item'),
+//     portfolioLayout = 'fitRows';
+//
+//     if( $container.hasClass('portfolio-centered') ) {
+//       portfolioLayout = 'masonry';
+//     }
+//
+//     $container.isotope({
+//       filter: '*',
+//       animationEngine: 'best-available',
+//       layoutMode: portfolioLayout,
+//       animationOptions: {
+//       duration: 750,
+//       easing: 'linear',
+//       queue: false
+//     },
+//     masonry: {
+//     }
+//     }, refreshWaypoints());
+//
+//     function refreshWaypoints() {
+//       setTimeout(function() {
+//       }, 1000);
+//     }
+//
+//     $('nav.portfolio-filter ul a').on('click', function() {
+//         var selector = $(this).attr('data-filter');
+//         $container.isotope({ filter: selector }, refreshWaypoints());
+//         $('nav.portfolio-filter ul a').removeClass('active');
+//         $(this).addClass('active');
+//         return false;
+//     });
+//
+//     function getColumnNumber() {
+//       var winWidth = $(window).width(),
+//       columnNumber = 1;
+//
+//       if (winWidth > 1200) {
+//         columnNumber = 5;
+//       } else if (winWidth > 950) {
+//         columnNumber = 4;
+//       } else if (winWidth > 600) {
+//         columnNumber = 3;
+//       } else if (winWidth > 400) {
+//         columnNumber = 2;
+//       } else if (winWidth > 250) {
+//         columnNumber = 1;
+//       }
+//         return columnNumber;
+//       }
+//
+//       function setColumns() {
+//         var winWidth = $(window).width(),
+//         columnNumber = getColumnNumber(),
+//         itemWidth = Math.floor(winWidth / columnNumber);
+//
+//         $container.find('.portfolio-item').each(function() {
+//           $(this).css( {
+//           width : itemWidth + 'px'
+//         });
+//       });
+//     }
+//
+//     function setPortfolio() {
+//       setColumns();
+//       $container.isotope('reLayout');
+//     }
+//
+//     $container.imagesLoaded(function () {
+//       setPortfolio();
+//     });
+//
+//     $(window).on('resize', function () {
+//     setPortfolio();
+//   });
+// })(jQuery);
 </script>
   </body>
 </html>
