@@ -314,8 +314,13 @@ input {
 }
 
 /* CONTACT SEPARATOR */
+.footer{
+	color: #034499;
+}
+
 #sep {
-	background:url(https://cdn.shutterstock.com/shutterstock/videos/8682442/thumb/1.jpg) no-repeat center top;
+	/*background:url(https://c2.staticflickr.com/6/5571/14649251433_57127ab33e_b.jpg) no-repeat center top;÷*/
+	background: url(http://hk.localiiz.com/wp-content/uploads/2016/12/Final-Feature-1.jpg) no-repeat center top;
 	opacity: 0.75;
 	padding-top: 100px;
 	background-attachment: relative;
