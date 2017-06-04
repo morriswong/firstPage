@@ -112,12 +112,12 @@ a {
 	-o-transition: background-color .4s linear, color .4s linear;
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
-	color: #1abc9c;
+	color: #ffffff;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#696E74;
+  color:#555;
 }
 
 .nopadding {
@@ -314,12 +314,7 @@ input {
 }
 
 /* CONTACT SEPARATOR */
-.footer{
-	color: #034499;
-}
-
 #sep {
-	/*background:url(https://c2.staticflickr.com/6/5571/14649251433_57127ab33e_b.jpg) no-repeat center top;÷*/
 	background: url(http://hk.localiiz.com/wp-content/uploads/2016/12/Final-Feature-1.jpg) no-repeat center top;
 	opacity: 0.75;
 	padding-top: 100px;
