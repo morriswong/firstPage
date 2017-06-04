@@ -1,6 +1,6 @@
 # firstPage
 
-## This is a page for showcasing my first personal page attempt
+### This is a page for showcasing my first personal page attempt
 
 Here are some of the things that I have used for this page:
 * Bootstrap template: 
@@ -11,3 +11,7 @@ Here are some of the things that I have used for this page:
       fotorama: http://fotorama.io/
       scrollinav js: http://scrollnav.com/ 
       typed js: https://github.com/mattboldt/typed.js/
+      
+Let me know if you have find anything interesting!
+
+Last but not least, nice to meet you!
